@@ -1,3 +1,33 @@
-.main-page-header{
-text-align: center;
+h1 {
+  text-align: center;
+  background-color: antiquewhite;
+  padding-top: 20px;
+  margin-top: 0;
 }
+img {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.index-images {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-image {
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+}
+footer a:visited {
+  color: black;
+}
+.recipe-container {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  }
+
